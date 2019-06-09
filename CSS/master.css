@@ -1,0 +1,279 @@
+body{
+    font-family: 'Volkhov', serif;
+    
+    }
+
+#Navigation-Bar ul{
+float: right;
+margin-right: 80px;
+text-align: center;
+font-weight: bolder;
+font-size: 22px;
+color: firebrick
+}
+
+#Navigation-Bar ul li{
+float: left;
+margin-top: -150px;
+padding: 100px;
+
+} 
+
+#Navigation-Bar img{  
+    width: 130px;
+    height: 120px;
+    display: block;
+    margin: -140px auto;
+
+} 
+
+#Navigation-Bar ul {
+    display: flex;
+    justify-content: space-around;
+ 
+    }
+
+    #Navigation-Bar li a{
+   
+        color: firebrick;
+        font-weight: bolder;
+        text-decoration: none
+    }
+
+    #Navigation-Bar li a:hover{
+   
+        color:black ;
+        font-weight: bolder
+       
+    }
+    
+    
+
+    
+    #mobile-nav {
+    display: none;
+    }
+    #mobile-nav ul {
+    display: block;
+    text-align: center;
+    }
+    #mobile-nav ul li {
+    width: 100%;
+    line-height: 20px;
+    }
+    #mobile-nav img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    
+    }
+    
+    
+    
+    #Brand-Logos{
+    background-image: url("../images/Background image.jpg");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: contain center top;
+    margin-top: 150px;
+    padding: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    }
+    
+    #Brand-Logos img.Logo1{ 
+    position: absolute;
+    width:55px;
+    height:70px;
+    left: 29px;
+    top: 165px;
+    
+    }
+    
+    #Brand-Logos img.Logo2{ 
+    
+    position: absolute;
+    width:55px;
+    height:70px;
+    left: 29px;
+    top: 355px;
+    }
+    
+    #Brand-Logos img.Logo3{ 
+    
+    position: absolute;
+    width:160px;
+    height:140px;
+    left: -28px;
+    top: 515px;
+    } 
+
+    #Brand-Logos img.Logo4{ 
+    
+        position: absolute;
+        width:80px;
+        height:80px;
+        top: 715px;
+        left: -0.2px;
+        } 
+
+    #Ferrari-Block h2{
+        font-size: 25px;
+        margin: 50px 0 30px 10px  
+        }
+
+    
+    
+    #Lamborghini-Block h2{
+        font-size: 25px;
+        margin: 50px 0 30px 10px
+    } 
+    
+    
+    #Porsche-Block h2{
+        font-size: 25px;
+        margin: 50px 0 30px 10px
+    }
+    
+    
+    #Mercedes-Benz-Block h2{   
+        font-size: 25px;
+        margin: 50px 0 30px 10px
+    } 
+    
+   figcaption {   
+    font-size: 20px;
+    line-height:30px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+} 
+    figure {
+    border: 4px solid firebrick;
+    border-radius: 10px;
+    }
+    
+    .flex{
+    display: flex;
+    justify-content: space-around
+    
+    } 
+    
+    #Reserve-Block{
+    background-image: url("../images/Lambo Background2.jpg");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: contain center top;
+    margin-top: 80px;
+    padding: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    }
+
+    #Reserve-Block h1{
+        font-size: 40px;
+        color:firebrick;
+        text-align: center;
+        margin-top: -50px;
+        font-weight: bolder;
+        margin-bottom: 100px
+
+        } 
+    
+    #Reserve-Block h2{
+
+   font-weight: bolder;
+   font-size: 20px;
+   padding: 25px;
+   margin-left: 200px
+   
+
+    } 
+
+
+    #CS h2{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 50px
+       
+                } 
+     
+       #CS ul li{
+       float: left;
+       padding: 100px;
+     
+   
+            } 
+            
+       #CS ul{
+      margin-right: 50px;
+      margin-left: 50px;      
+      font-size: 23px;   
+      font-weight: bolder;  
+                    } 
+             
+    #CS i{
+        font-size: 35px;
+        padding: 20px;
+      
+    
+             }
+                    
+
+    @media screen and (max-width: 600px) {
+    #Navigation-Bar {
+    display: none;
+    }
+    #mobile-nav {
+    display: block;
+    }
+    }
+
+    #apart {
+        display:flex;
+        justify-content: space-around
+        }
+
+    #apart img{
+        height: 343px;
+        width: 348 px
+                }
+
+    #apart li{
+        padding: 50px;
+        font-size: 20px
+            }
+    
+        
+   
+            #aboutus{
+                background-image: url("../images/aboutus.jpg");
+                background-size: 1500px;
+                background-repeat: no-repeat;
+                background-position: contain center top;
+                margin-top: 150px;
+                padding: 350px ;
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-bottom: -200px
+                }
+
+    #aboutus .white{ 
+            background-color:white;
+            padding: 40px 30px;
+            margin:-200px 50px 0 0
+         
+    }
+
+    #aboutus h1{
+       font-size: 30px;
+       text-align: center;
+     }
+
+     #aboutus p{
+        font-size: 20px;
+        padding: 20px;
+        line-height: 30px
+      }
